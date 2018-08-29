@@ -1,0 +1,210 @@
+@import url('base.css');
+img{
+    display: block;
+    width:100%;
+}
+/*头部*/
+.header{
+    width:100%;
+    height: 0.45rem;
+}
+/*标题*/
+.title{
+    width:100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    display: flex;
+
+}
+.title i{
+    font-size:0.4rem;
+    margin-left:0.2rem;
+    color:#36a8fe;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.title h2{
+    font-size:0.4rem;
+    font-weight: 500;
+    margin-left:2.8rem;
+    color:#4ebbfe;
+}
+/*内容开始*/
+.contents{
+    width:100%;
+    overflow: hidden;
+    box-shadow: 0 0.1rem 0.1rem 0.08rem rgba(200,200,200,0.05) inset;
+}
+.contents .login{
+    width:100%;
+    height: 0.63rem;
+    margin-top:2.3rem;
+    position: relative;
+    margin-bottom:0.18rem;
+}
+.contents .login:after{
+    content:"";
+    width:5.18rem;
+    height: 0.02rem;
+    background: #eef1f2;
+    position: absolute;
+    bottom:0.02rem;
+    left:1.13rem;
+}
+.contents .login .btn_left{
+    position: relative;
+    width:1.49rem;
+    height: 0.63rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align:center;
+    color:#646666;
+    margin-left:1.86rem;
+    float: left;
+}
+.contents .login .btn_left:after{
+    content:"";
+    width:0.91rem;
+    height: 0.06rem;
+    background: #61bcfe;
+    position: absolute;
+    bottom:0;
+    left:0.25rem;
+    z-index:5;
+}
+.contents .login .btn_right{
+    width:1.49rem;
+    height: 0.63rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align:center;
+    color:#c9cbcc;
+    margin-left:0.6rem;
+    float: left;
+}
+.contents .telephone{
+    width:5.19rem;
+    height: 0.47rem;
+    padding-top:0.43rem;
+    border-bottom:2px solid #f3f6f7;
+    margin:0 auto;
+}
+.contents .telephone .tele_cont{
+    width:100%;
+    height: 0.25rem;
+    position: relative;
+}
+.contents .telephone .tele_cont .picture{
+    width:0.18rem;
+    height: 0.25rem;
+    margin-left:0.16rem;
+    float: left;
+}
+.contents .telephone .tele_cont p{
+    width:0.37rem;
+    height: 0.25rem;
+    font-size:0.16rem;
+    color:#40b1ff;
+    margin-left:0.32rem;
+    line-height: 0.25rem;
+    float: left;
+}
+.contents .telephone .tele_cont input{
+    font-size:0.16rem;
+    font-color:#c9cbcc;
+    position: absolute;
+    top:0;
+    left:0.64rem;
+    width:4rem;
+    height: 0.25rem;
+    outline: none;
+    border:0;
+}
+::-webkit-input-placeholder{
+    color:#c9cbcc;
+    font-size:0.16rem;
+}
+.contents .verification{
+    width:5.19rem;
+    height: 0.47rem;
+    padding-top:0.43rem;
+    border-bottom:2px solid #f3f6f7;
+    margin:0 auto 0.4rem;
+    position: relative;
+}
+.contents .verification input{
+    font-size:0.16rem;
+    font-color:#c9cbcc;
+    position: absolute;
+    top:0.45rem;
+    left:0.64rem;
+    width:3rem;
+    height: 0.25rem;
+    outline: none;
+    border:0;
+}
+.contents .verification .point{
+    width:0.08rem;
+    height: 0.08rem;
+    background: #3bacfe;
+    border-radius:50%;
+    position: absolute;
+    top:0.48rem;
+    left: 0.2rem;
+}
+.contents .verification .code{
+    width:1.56rem;
+    height: 0.46rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d699);
+    border-radius:0.23rem;
+    position: absolute;
+    top:0.21rem;
+    right:0;
+    text-align:center;
+    line-height: 0.46rem;
+    color:#fff;
+    font-size:0.2rem;
+    box-shadow: 0 0 0.1rem 0.03rem rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.contents .btn{
+    width:3.86rem;
+    height: 0.52rem;
+    background: #e7f6ff;
+    border-radius:0.26rem;
+    margin:0 auto 0.32rem;
+    font-size:0.2rem;
+    line-height: 0.52rem;
+    text-align: center;
+    color:#73c4fe;
+    cursor: pointer;
+}
+.contents .btn:hover{
+    animation:color 1s linear 1 forwards;
+}
+@keyframes color{
+    from{
+        background-color: #e7f6ff;
+    }
+    to{
+        background-color: #333;
+    }
+}
+.contents p{
+    width:100%;
+    font-size:0.2rem;
+    text-align:center;
+    color:#afb1b2;
+}
+.contents p span{
+    display: inline-block;
+    width:0.23rem;
+    height: 0.23rem;
+    background: #e7f6ff;
+    border-radius: 50%;
+}
+
+
+
+

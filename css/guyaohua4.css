@@ -1,0 +1,131 @@
+@import url('base.css');
+img{
+    display: block;
+    width:100%;
+}
+body{
+    background: #fbfeff;
+}
+/*头部*/
+.header{
+    width:100%;
+    height: 0.45rem;
+}
+/*标题*/
+.title{
+    width:100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    display: flex;
+
+}
+.title i{
+    font-size:0.4rem;
+    margin-left:0.2rem;
+    color:#36a8fe;
+    display: block;
+    margin-bottom:0.2rem;
+}
+.title h2{
+    font-size:0.4rem;
+    font-weight: 500;
+    margin-left:2.8rem;
+    color:#4ebbfe;
+}
+/*搜索栏开始*/
+.search{
+    width:100%;
+    height: 0.66rem;
+    padding:0.03rem 0.2rem;
+    box-sizing:border-box;
+    margin-bottom:0.14rem;
+}
+
+.search .search_box{
+    width:100%;
+    height: 0.66rem;
+    float:left;
+    position: relative;
+}
+.search .search_box i{
+    position: absolute;
+    right:0.15rem;
+    top:0.18rem;
+    color:#a1dfbd;
+    font-size:0.16rem;
+}
+.search .search_box input{
+    position: absolute;
+    left:0;
+    top:0.04rem;
+    height: 0.5rem;
+    border-radius:0.28rem;
+    padding-left:0.15rem;
+    width:6.95rem;
+    border:0.03rem solid #e8f6ff;
+    line-height: 0.46rem;
+    font-size:0.12rem;
+    background: #f2faff;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color:rgba(55,165,255,0.7);
+    font-size:0.16rem;
+}
+/*内容开始*/
+.content{
+    width:100%;
+    box-shadow:0 0.1rem 0.1rem 0.06rem rgba(200,200,200,0.05) inset;
+    padding-top:0.45rem;
+
+}
+.content h2{
+    font-size:0.3rem;
+    margin-left:0.5rem;
+    color:#41b2fc;
+    position: relative;
+    margin-bottom:0.33rem;
+
+}
+.content h2:before{
+    content:"";
+    width:0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius:0.025rem;
+    position: absolute;
+    left:-0.25rem;
+    top:0.18rem;
+}
+.content h2 span{
+    color:#4f5b64;
+}
+.content .con_box{
+    width:100%;
+    height: 0.48rem;
+    padding:0 0 0 0.3rem;
+    box-sizing: border-box;
+    margin-bottom:0.7rem;
+}
+.content .con_box li{
+    width:0.97rem;
+    height: 100%;
+    background: #e7f6ff;
+    margin:0 0.1rem;
+    float: left;
+    border-radius:0.24rem;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    text-align: center;
+    color:#36a8fe;
+}
+.content .con_box li:nth-child(3){
+    width:1.49rem;
+}
+.content .con_box1{
+    margin-bottom:0.24rem;
+}
+
+
+
+
