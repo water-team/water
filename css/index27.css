@@ -1,0 +1,413 @@
+@import "base.css";
+.Whole{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.name{
+    width: 7.50rem;
+    height: 0.95rem;
+    margin-top: 0.4rem;
+    background:#fbfeff;
+}
+.name i{
+    display: block;
+    width: 0.7rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    padding-left: 0.2rem;
+    float: left;
+    color: #36a8fe;
+}
+.jinTong{
+    width: 5.5rem;
+    height: 100%;
+    font-size: 0.4rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #36a8fe;
+    line-height: 0.95rem;
+    margin: 0 auto;
+    float: left;
+}
+.ser{
+    width:7.12rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    background: #f2faff;
+    border:1px solid #e8f6ff;
+    margin-bottom: 0.36rem;
+}
+.ser_1{
+    width: 0.79rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    background: #a4e0bd;
+    float: right;
+    margin:0.08rem 0.06rem 0 0;
+    position: relative;
+}
+.icon-search{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.25rem;
+    color: #e5f6ec;
+}
+.nursing{
+    width: 7.5rem;
+    height: 2.35rem;
+}
+.nurs{
+    width: 6.86rem;
+    height: 2.35rem;
+    margin:0 auto;
+}
+.nurs_l img{
+    width: 2.02rem;
+    height: 2.02rem;
+    margin-left: -0.14rem;
+    float: left;
+}
+.nurs_r{
+    width: 4.98rem;
+    height: 2.35rem;
+    float: right;
+}
+.nurs_r h3{
+    margin-top: 0.2rem;
+    font-size: 0.32rem;
+    color: #8a8c8d;
+}
+.s_time{
+    width: 4rem;
+    height: 0.4rem;
+    font-size: 0.28rem;
+}
+.icon-biao{
+    line-height: 0.4rem;
+    color: #a4e0bd;
+    float: left;
+}
+.s_time p{
+    float: left;
+    line-height: 0.4rem;
+    color: #a4e0bd;
+}
+.ques{
+    width: 4.98rem;
+    height: 0.4rem;
+    font-size: 0.28rem;
+}
+.ques_l{
+    width: 2.2rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    background: #e7f6ff;
+    color:#3bacfe;
+    float: left;
+}
+.ques_r{
+    width: 1.24rem;
+    height: 0.45rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    line-height: 0.45rem;
+    font-size: 0.28rem;
+    background: #3bacfe;
+    color:#e7f6ff;
+    box-shadow: 0 3px 4px 1px #3bacfe;
+    float: right;
+}
+
+
+
+
+
+
+/*导航栏开始*/
+nav{
+    width: 7.50rem;
+    height: 0.95rem;
+    background: #fbfeff;
+}
+.nav{
+    width: 6.2rem;
+    height: 0.95rem;
+    margin: 0 auto;
+    display: flex;
+}
+.nav_list{
+    width: 1.6rem;
+    height: 0.52rem;
+    margin: 0.25rem auto 0;
+    border-radius: 0.26rem;
+    background: #e7f6ff;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #3bacfe;
+    cursor: pointer;
+}
+.ch{
+    box-shadow: 0 2px 6px 1px #3bacfe;
+    background:#3bacfe;
+    color: #e7f6ff;
+}
+.shadow{
+    width: 7.5rem;
+    height: 0.24rem;
+    background-image: -webkit-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -moz-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -ms-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -o-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: linear-gradient(top,#ecf8ff,#f7fcff);
+}
+.list{
+    width: 100%;
+    height: 1.23rem;
+    /*background: lawngreen;*/
+}
+.choice{
+    width: 7rem;
+    height: 2.03rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.cho_list{
+    width: 1.13rem;
+    height: 2.03rem;
+    background:#fbfeff;
+}
+.cho_list span{
+    display: block;
+    text-align: center;
+    color: #8e9397;
+   font-size: 15px;
+}
+/*商品开始*/
+.all{
+    width: 7.50rem;
+    height: 0.92rem;
+    background:#fbfeff;
+    overflow: hidden;
+}
+.block{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 2px;
+    margin-left: 0.25rem;
+    margin-top: 0.43rem;
+    float: left;
+}
+.allService{
+    width: 3rem;
+    height: 0.92rem;
+    font-size: 0.35rem;
+    font-weight: 600;
+    margin-left: 0.35rem;
+    line-height: 0.92rem;
+    color: #36a8fe;
+    float: left;
+}
+.content{
+    width: 7.50rem;
+    height: 1.97rem;
+    margin-bottom: 0.24rem;
+}
+.content:last-child{
+    margin-bottom: 0;
+}
+.con_left{
+    width: 1.97rem;
+    height: 1.97rem;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 0.24rem;
+    float: left;
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.con_right{
+    width: 5.14rem;
+    height: 1.97rem;
+    float: right;
+}
+.con_right h3{
+    font-size: 0.32rem;
+    color: #8a8c8d;
+}
+.con_right p{
+    width: 5.14rem;
+    height: 0.4rem;
+    border-bottom: 1px solid #c7caca;
+    font-size: 0.14rem;
+    color: #c7caca;
+}
+.price{
+    width: 5.14rem;
+    height: 0.52rem;
+}
+.price_L{
+    width: 1.3rem;
+    height: 0.52rem;
+    overflow: hidden;
+    float: left;
+}
+.price_C{
+    width: 1.3rem;
+    height: 0.52rem;
+    margin-left: 0.3rem;
+    overflow: hidden;
+    float: left;
+}
+.price_R{
+    width: 1.3rem;
+    height: 0.52rem;
+    font-size: 0.2rem;
+    color: #fbb548;
+    float: right;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.author{
+    width: 1.3rem;
+    height: 0.52rem;
+}
+
+/* 用户评价选项卡 */
+.s_nav{
+    width: 6.8rem;
+    height: 1.4rem;
+    background: #fbfeff;
+    margin:0 auto; 
+}
+.s_nav1{
+    width: 6.8rem;
+    height: 1.4rem;
+    margin: 0 auto;
+    display: flex;
+}
+.nav_list1{
+    width: 1.33rem;
+    height: 0.96rem;
+    margin: 0.25rem auto 0;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #3bacfe;
+}
+.bl{
+    font-size: 0.28rem;
+    font-weight: 600;
+    border-bottom:4px solid #3bacfe;
+}
+.nav_list1 p{
+    width: 0.8rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    margin: 0 auto;
+}
+/*商品开始*/
+
+.ctb{
+    width: 7.5rem;
+    height: 8.04rem;
+}
+.ctb_list{
+    width: 7.04rem;
+    height: 2.04rem;
+    border-bottom: 1px solid #f0f5f7;
+    margin:0 auto; 
+}
+.photo{
+    width: 1.25rem;
+    height: 2.04rem;
+    float: left;
+}
+.photo img{
+    width: 1.25rem;
+    height: 1.04rem;
+}
+.info{
+    width: 5.78rem;
+    height: 2.05rem;
+    font-size: 0.2rem;
+    float: right;
+}
+.username{
+    width: 5.78rem;
+    height: 0.40rem;
+    margin-top:0.28rem; 
+}
+.user{
+    font-size: 0.18rem;
+    color: #cfcfcf;
+    float: left;
+}
+.stars{
+    width: 1.9rem;
+    height: 0.4rem; 
+    margin-left: 0.5rem;
+    color: #e6e6e6;
+    float: left;
+}
+.time{
+    font-size: 0.18rem;
+    float: right;
+    color: #b9e1ff;
+}
+.evaluate{
+    width: 5.78rem;
+    height: 0.46rem;
+    font-size: 0.28rem;
+    color: #8a8c8d;
+}
+.address{
+    width: 5.78rem;
+    height: 0.46rem;
+    color: #bdc0c1;
+}
+.like{
+    width: 1rem;
+    height: 0.6rem;
+    float: right;
+}
+.like img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-right: 0.3rem;
+}
+.like img:last-child{
+    margin-right: 0;
+}
+.ctb_list:nth-child(3){
+    width: 7.04rem;
+    height: 3.6rem;
+    border-bottom: 1px solid #f0f5f7;
+    margin:0 auto; 
+}
+.info3{
+    width: 5.78rem;
+    height: 4.05rem;
+    font-size: 0.2rem;
+    float: right;
+}
+.goods{
+    width: 5.78rem;
+    height: 1.5rem;
+}
+.goods img{
+    width: 1.9rem;
+    height: 1.5rem;
+}
+.bigBox{
+    display: none;
+}

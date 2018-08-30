@@ -1,0 +1,189 @@
+@import "base.css";
+.Whole{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.name{
+    width: 7.50rem;
+    height: 0.95rem;
+    margin-top: 0.4rem;
+    background:#fbfeff;
+}
+.name i{
+    display: block;
+    width: 0.7rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    padding-left: 0.2rem;
+    float: left;
+    color: #36a8fe;
+}
+.jinTong{
+    width: 5.5rem;
+    height: 100%;
+    font-size: 0.40rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #36a8fe;
+    line-height: 0.95rem;
+    margin: 0 auto;
+    float: left;
+}
+.sel{
+    width: 0.6rem;
+    height: 100%;
+    float: right;
+    margin-right: 0.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.point{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #36a8fe;
+    margin-top: 0.43rem;
+}
+.shadow{
+    width: 7.5rem;
+    height: 0.24rem;
+    background-image: -webkit-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -moz-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -ms-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -o-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: linear-gradient(top,#ecf8ff,#f7fcff);
+}
+/* 订单内容 */
+.all{
+    width: 7.50rem;
+    height: 0.92rem;
+    background:#fbfeff;
+    overflow: hidden;
+}
+.allService{
+    width: 3rem;
+    height: 0.92rem;
+    font-size: 0.35rem;
+    font-weight: 600;
+    margin-left: 0.35rem;
+    line-height: 0.92rem;
+    color: #979899;
+    float: left;
+}
+.content{
+    width: 7.48rem;
+    height: 2.46rem;
+}
+.content img{
+    display: block;
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 0.2rem;
+    margin: 0.37rem auto;
+    background: #fff;
+}
+.info{
+    width: 5.1rem;
+    height: 2.06rem;
+    margin-top: 0.37rem;
+    float: right;
+}
+.info h3{
+    font-size: 0.32rem;
+    color: #8a8c8d;
+}
+.price_L{
+    width: 5.1rem;
+    height: 0.4rem;
+    overflow: hidden;
+    float: left;
+}
+.price_R{
+    width: 1.3rem;
+    height: 0.52rem;
+    font-size: 0.2rem;
+    color: #fbb548;
+    float: left;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.line{
+    width: 7.04rem;
+    height: 0.11rem;
+    margin: 0 auto;
+    border-top: 2px solid #f6f9fa;
+}
+.buy{
+    width: 7.04rem;
+    height: 5.43rem;
+    margin: 0.13rem auto 0;
+}
+.buy_list{
+    width: 7.04rem;
+    height: 0.88rem;
+    border-bottom: 2px solid #f6f9fa;
+}
+.not{
+    width: 3rem;
+    height: 100%;
+    float: right;
+}
+.not p{
+    height: 100%;
+    text-align: ;
+    line-height: 0.88rem;
+    font-size: 0.26rem;
+    color: #afb1b2;
+    float: right;
+}
+.icon-you{
+    width: 0.5rem;
+    height: 100%;
+    color: #afb1b2;
+    text-align: center;
+    line-height: 0.88rem;
+    float: right;
+}
+textarea{
+    width: 5.8rem;
+    height: 0.88rem;
+    font-size: 0.24rem;
+    float: right;
+    line-height: 0.88rem;
+    background: #fbfeff;
+    color: #afb1b2;
+    border: none; 
+    resize: none;
+}
+/*底部开始*/
+footer{
+    width:100%;
+    height: 1.15rem;
+    background: #f1faff;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.shop_car{
+    width: 5rem;
+    height: 100%;
+}
+.order{
+    width: 3.50rem;
+    height: 0.60rem;
+    text-align: center;
+    line-height: 0.60rem;
+    color: #e7f6ff;
+    border-radius: 0.30rem;
+    font-size: 0.28rem;
+    background:#3bacfe;
+    margin: 0.3rem 0.3rem 0 0 ;
+    box-shadow: 0 2px 6px 1px #3bacfe;
+    float: right;
+}

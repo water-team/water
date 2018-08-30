@@ -1,0 +1,134 @@
+@import "base.css";
+.Whole{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.name{
+    width: 7.50rem;
+    height: 0.95rem;
+    margin-top: 0.4rem;
+    background:#fbfeff;
+}
+.name i{
+    display: block;
+    width: 0.7rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    padding-left: 0.2rem;
+    float: left;
+    color: #36a8fe;
+}
+.jinTong{
+    width: 5.5rem;
+    height: 100%;
+    font-size: 0.40rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #36a8fe;
+    line-height: 0.95rem;
+    margin: 0 auto;
+    float: left;
+}
+/*导航栏开始*/
+.tab{
+    width: 7.50rem;
+    height: 0.5rem;
+    background:#fbfeff;
+    margin-bottom: 0.24rem;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.tab_list{
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+    color: #3bacfe;
+}
+.tab_list:first-child{
+    color: #36d681;
+}
+.shadow{
+    width: 7.5rem;
+    height: 0.24rem;
+    background-image: -webkit-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -moz-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -ms-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -o-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: linear-gradient(top,#ecf8ff,#f7fcff);
+}
+/*商品开始*/
+main{
+    width:100%;
+    height:7.91rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    box-sizing: border-box;
+    padding: 0.68rem 0.34rem;
+    background: #f7fcff;
+}
+main .main_1{
+    width:100%;
+    height:1.74rem;
+    background: #f7fcff;
+}
+main .main_1 img{
+    display: block;
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+}
+main .main_1R{
+    width: 5.08rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    float: left;
+}
+.main_1R li{
+    width: 100%;
+    padding-left: 0.26rem;
+    box-sizing: border-box;
+    height: 0.41rem;
+}
+.main_1R li .score{
+    width:1.70rem;
+    height:100%;
+    float: left;
+}
+.main_1R li .score span{
+    display:block;
+    font-size: 0.24rem;
+    width: auto;
+    height: auto;
+    margin-left: 0.06rem;
+    margin-top: 0.05rem;
+    float: left;
+}
+.main_1R li .spot{
+    width:0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    margin-top:0.18rem;
+    float: left;
+}
+.main_1R li .evaluate{
+    width: 1.21rem;
+    height: 0.35rem;
+    font-size:0.20rem;
+    margin-top: 0.025rem;
+    text-align: center;
+    padding-top: 0.050rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: #36a8fe;
+    float: left;
+    background: #e7f6ff;
+}
+
