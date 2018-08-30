@@ -1,0 +1,207 @@
+@import url(base.css);
+.Waterway{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f7fcff;
+}
+.Waterway nav{
+    width: 100%;
+    height:0.89rem;
+    box-sizing: border-box;
+    padding: 0.24rem 0.23rem;
+    /*margin-top: 40px;*/
+    background: #fbfeff;
+}
+.Waterway nav .nav_L{
+    width: 0.32rem;
+    float:left;
+    line-height: 0.41rem;
+    height: 0.41rem;
+    font-size: 0.40rem;
+}
+.Waterway nav .nav_R{
+    width: 4.01rem;
+    height: 100%;
+    float: left;
+    font-weight: normal;
+    text-align: right;
+    font-size: 0.36rem;
+    background: #fbfeff;
+}
+.Waterway .payment_top{
+    width: 100%;
+    height: 3.91rem;
+    box-sizing: border-box;
+    padding:0.39rem 1.48rem 0.52rem 1.47rem ;
+}
+.Waterway .payment_top img {
+    display: block;;
+    width: 1.06rem;
+    height: 0.79rem;
+    margin: 0 auto;
+}
+.Waterway .payment_top .success{
+    width:3.08rem;
+    height:0.93rem;
+    margin: 0 auto;
+}
+.Waterway .payment_top .success li{
+    width: 100%;
+    height:0.46rem;
+    font-size: 0.26rem;
+    line-height: 0.46rem;
+    font-weight: 400;
+    color: #4f5b64;
+    text-align: center;
+}
+.Waterway .payment_top .success li .spot1{
+    width: 0.10rem;
+    height: 0.05rem;
+    border-radius: 0.05rem;
+    background: #34da87;
+    float: left;
+    margin-top: 0.20rem;
+}
+.Waterway .payment_top .btn{
+    width: 100%;
+    height:0.60rem;
+    margin-top: 0.42rem;
+
+}
+.Waterway .payment_top .btn .btn1{
+    width:1.97rem;
+    height: 0.60rem;
+    font-size: 0.26rem;
+    color: #FFFFFF;
+    line-height: 0.6rem;
+    text-align: center;
+    border-radius: 0.30rem;
+    /*background-image: -webkit-linear-gradient();*/
+}
+.Waterway .need{
+    width:100%;
+    height:9.44rem;
+    box-sizing: border-box;
+    padding:0 0.24rem 0 0.23rem ;
+    margin-top: 0.59rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Waterway .need li{
+    width: 3.51rem;
+    height:4.70rem;
+    background: #fbfeff;
+    position: relative;
+}
+.Waterway .need li img{
+    display: block;
+    width: 1.53rem;
+    margin-top:0.50rem;
+    margin-left:0.71rem;
+    height: 1.62rem;
+}
+.Waterway .need .need_1{
+    width: 3.51rem;
+    height:0.30rem;
+    font-size: 0.26rem;
+    font-weight: 600;
+    margin-top: 0.12rem;
+}
+.Waterway .need li .five{
+    width: 0.54rem;
+    text-align: center;
+    height: 0.30rem;
+    color: #ffffff;
+    top: 0.72rem;
+    right: 0.26rem;
+    position: absolute;
+    border-radius: 0.30rem;
+    background: #32d794;
+    font-size: 0.22rem;
+}
+.Waterway .need .need_1 .spot{
+    width:0.10rem;
+    height: 0.05rem;
+    float: left;
+    margin-top: 0.12rem;
+    border-radius: 0.05rem;
+    background: #34da87;
+}
+.Waterway .need li .title{
+    width: 100%;
+    height:0.75rem;
+    margin-top: 0.40rem;
+    background: #fbfeff;
+    border-bottom: 1px solid #e1e5e6;
+}
+.Waterway .need li .title .title1{
+    width:100%;
+    height:0.375rem;
+    background: #fbfeff;
+}
+.Waterway .need li .title_bottom{
+    width: 100%;
+    height: 0.95rem;
+}
+.Waterway .need li .title_bottom1 {
+    width: 100%;
+    height:0.48rem;
+    background: #fbfeff;
+}
+.Waterway .need li .title_bottom1 .title_bottom1_1{
+    font-size: 0.23rem;
+    width:1.59rem;
+    height: 100%;
+    float: left;
+    line-height: 0.475rem;
+}
+.Waterway .need li .title_bottom1 .spot1{
+    width: 0.05rem;
+    height: 0.05rem;
+    float: left;
+    margin-top:0.21rem;
+    background: #44b5ff;
+}
+.title_bottom .title_bottom1 .btn_3{
+    width: 1.24rem;
+    height: 0.35rem;
+    float: left;
+    line-height: 0.35rem;
+    text-align: center;
+    font-size: 0.22rem;
+    border-radius: 0.35rem;
+    margin-top: 0.10rem;
+    background:#e7f6ff;
+    color: #36a8fe;
+}
+/*底部开始*/
+footer ul{
+    width: 100%;
+    height:1.00rem;
+    padding-top:0.11rem;
+    background: #f6fbff;
+    margin-top: 0.45rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    width:1.15rem ;
+    height: 100%;
+    background:#f6fbff;
+}
+footer ul li a img{
+    display: block;
+    margin: 0 auto;
+    width:0.69rem ;
+    height: 0.48rem;
+}
+footer ul li a h1{
+    font-size: 0.24rem;
+    margin-top: 0.09rem;
+    text-align: center;
+    color: #62c6fe;
+}
