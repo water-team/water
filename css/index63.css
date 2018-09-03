@@ -1,0 +1,222 @@
+@import url(base.css);
+.bg{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.topBox{
+	width: 100%;
+	height: 1.34rem;
+	padding-top: 0.38rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.topBox h2{
+	width: 100%;
+	height: 0.96rem;
+	line-height: 0.96rem;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #4ebbfe;
+}
+.topBox a{
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	top: 35px;
+	left: 10px;
+	color: #4ebbfe;
+}
+.kongbai{
+	width: 100%;
+	height: 0.33rem;
+	background-image: -webkit-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: -moz-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: -ms-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: -o-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: linear-gradient(bottom,#ecf8ff,#fbfeff);
+}
+main{
+	width: 100%;
+	/* background: #aaaaaa; */
+	height: auto;
+	padding: 0 0.32rem;
+	box-sizing: border-box;
+}
+main .anniu{
+	width: 100%;
+	height: 0.57rem;
+	padding-top: 0.1rem;
+	display: flex;
+	justify-content: center;
+}
+main .anniu button{
+	display: block;
+	width: 1.33rem;
+	height: 0.52rem;
+	outline: none;
+	border: none;
+	border-radius: 0.26rem;
+	background: #e7f6ff;
+	margin: 0 0.13rem;
+	color: #3bacfe;
+	line-height: 0.52rem;
+	text-align: center;
+}
+main .anniu .active{
+	background: #3bacfe;
+	box-shadow: 0 0.02rem 0.2rem 0.02rem rgba(184, 255, 255, 1.0);
+	color: #fff;
+}
+main .mainBox{
+	width: 100%;
+	height: 6.8rem;
+	position: relative;
+}
+main .mainBox .quanBox{
+	width: 100%;
+	height: 6.8rem;
+	overflow: hidden;
+	position: absolute;
+	background: #fbfeff;
+}
+main .mainBox .active{
+	z-index: 5;
+}
+main .mainBox .quan{
+	width: 100%;
+	height: 1.83rem;
+	margin-top: 0.32rem;
+	border-radius: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	background: #d7e0e3;
+}
+main .mainBox .quanBox1 .quan{
+	background-image: -webkit-linear-gradient(left,#27d29c,#33e171);
+	background-image: -moz-linear-gradient(left,#27d29c,#33e171);
+	background-image: -ms-linear-gradient(left,#27d29c,#33e171);
+	background-image: -o-linear-gradient(left,#27d29c,#33e171);
+	background-image: linear-gradient(left,#27d29c,#33e171);
+	box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(177, 241, 210, 1.0);
+}
+main .mainBox .quanBox1 .quan:nth-child(2){
+	background-image: -webkit-linear-gradient(left,#34a2f8,#3fdef1);
+	background-image: -moz-linear-gradient(left,#34a2f8,#3fdef1);
+	background-image: -ms-linear-gradient(left,#34a2f8,#3fdef1);
+	background-image: -o-linear-gradient(left,#34a2f8,#3fdef1);
+	background-image: linear-gradient(left,#34a2f8,#3fdef1);
+	box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(181, 231, 251, 1.0);
+}
+main .mainBox .quanBox1 .quan:nth-child(3){
+	background-image: -webkit-linear-gradient(left,#ffb637,#ffde47);
+	background-image: -moz-linear-gradient(left,#ffb637,#ffde47);
+	background-image: -ms-linear-gradient(left,#ffb637,#ffde47);
+	background-image: -o-linear-gradient(left,#ffb637,#ffde47);
+	background-image: linear-gradient(left,#ffb637,#ffde47);
+	box-shadow: 0 0.02rem 0.1rem 0.02rem rgba(249, 239, 181, 1.0);
+}
+main .mainBox .quan .left{
+	width: 4.97rem;
+	height: 100%;
+	padding-left: 0.2rem;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+}
+main .mainBox .quan .left .top{
+	width: 100%;
+	height: 0.6rem;
+}
+main .mainBox .quan .left .top img{
+	width: 1.45rem;
+	height: 0.6rem;
+	float: left;
+}
+main .mainBox .quan .left .top .text{
+	float: left;
+	overflow: hidden;
+	margin-left: 0.1rem;
+}
+main .mainBox .quan .left .top .text h2{
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: 0.1rem;
+	color: #fff;
+}
+main .mainBox .quanBox1 .quan .left .top .text p{
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	color: #bbefd7;
+}
+main .mainBox .quan .left .top .text p{
+	color: #fff;
+}
+main .mainBox .quan .left .dian{
+	width: 4.97rem;
+	height: 0.07rem;
+	margin-top: 0.18rem;
+}
+main .mainBox .quan .left .end{
+	overflow: hidden;
+}
+main .mainBox .quan .left .end span{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background: #fbfeff;
+	float: left;
+	margin-top: 0.15rem;
+}
+main .mainBox .quanBox1 .quan .left .end p{
+	float: left;
+	margin-left: 0.15rem;
+	color: #baeed9;
+	font-size: 0.17rem;
+}
+main .mainBox .quan .left .end p{
+	color: #fff;
+}
+main .mainBox .quan .right{
+	width: 1.6rem;
+	height: 100%;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+}
+main .mainBox .quan .right h2{
+	padding-left: 0.2rem;
+	font-size: 0.65rem;
+	font-weight: 800;
+	color: #fff;
+	line-height: 0.65rem;
+}
+main .mainBox .quan .right button{
+	width: 1.35rem;
+	height: 0.38rem;
+	border-radius: 0.19rem;
+	outline: 0;
+	border: 0;
+	background: #fefffe;
+	margin-top: 0.1rem;
+}
+main .mainBox .quanBox .quan .right button a{
+	color: #c7d7de;
+}
+main .mainBox .quanBox1 .quan .right button a{
+	display: block;
+	width: 1.35rem;
+	height: 0.38rem;
+	border-radius: 0.19rem;
+	color: #32e074;
+	font-size: 0.16rem;
+	line-height: 0.38rem;
+	text-align: center;
+}
+main .mainBox .quanBox1 .quan:nth-child(2) .right button a{
+	color: #38b9f5;
+}
+main .mainBox .quanBox1 .quan:nth-child(3) .right button a{
+	color: #ffc33c;
+}

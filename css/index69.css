@@ -1,0 +1,247 @@
+@import url(base.css);
+.bg{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.topBox{
+	width: 100%;
+	height: 1.34rem;
+	padding-top: 0.38rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.topBox h2{
+	width: 100%;
+	height: 0.96rem;
+	line-height: 0.96rem;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #4ebbfe;
+}
+.topBox a{
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 20px;
+	top: 35px;
+	left: 10px;
+	color: #4ebbfe;
+}
+.kongbai{
+	width: 100%;
+	height: 0.33rem;
+	background-image: -webkit-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: -moz-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: -ms-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: -o-linear-gradient(bottom,#ecf8ff,#fbfeff);
+	background-image: linear-gradient(bottom,#ecf8ff,#fbfeff);
+}
+main{
+	width: 100%;
+	background: #fbfeff;
+}
+main .grbox{
+	width: 6.41rem;
+	height: 1.86rem;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+main .grbox .grimg{
+	display: block;
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-left: 0.29rem;
+	margin-top: 0.29rem;
+	float: left;
+}
+main .grbox a img{
+	width: 0.88rem;
+	height: 0.88rem;
+}
+main .grbox .grmain{
+	float: left;
+	padding-top: 0.4rem;
+	padding-bottom: 0.12rem;
+	padding-left: 0.23rem;
+	box-sizing: border-box;
+}
+main .grbox .grmain h2{
+	width: 100%;
+	color: #a3a3a3;
+}
+main .grbox .grmain .lll{
+	height: 0.2rem;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+main .grbox .grmain .lll i{
+	display: block;
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius:50%;
+	background:#29c99a;
+	margin-top: 0.08rem;
+	float: left;
+}
+main .grbox .grmain .lll p{
+	float: left;
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+	color: #cacaca;
+	margin-left: 0.1rem;
+}
+main .grbox .grmain .lll span{
+	line-height: 0.2rem;
+	font-size: 0.2rem;
+	color: #59bffe;
+}
+main .grbox .gright{
+	width: 2rem;
+	float: right;
+	padding-left: 0.38rem;
+	padding-top: 0.5rem;
+	box-sizing: border-box;
+}
+main .grbox .gright p{
+	width: 100%;
+}
+main .grbox .gright p a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #3bacfe;
+	font-size: 0.2rem;
+}
+.clear{
+	clear: both;
+}
+main .grbox .grm_bottom{
+	width: 100%;
+	height: 0.61rem;
+	margin-top: 0.1rem;
+	padding-top: 0.15rem;
+	box-sizing: border-box;
+}
+main .grbox .grm_bottom .img1{
+	width: 0.34rem;
+	height: 0.31rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+main .grbox .grm_bottom .img3{
+	margin-left: 0.2rem;
+}
+main .grbox .grm_bottom .img2{
+	width: 2.97rem;
+	height: 0.26rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.05rem;
+}
+main .grbox .grm_bottom span{
+	display: block;
+	float: left;
+	font-size: 0.18rem;
+	margin-left: 0.1rem;
+}
+.wode{
+	width: 100%;
+	height: 2.57rem;
+	padding-left: 0.75rem;
+	box-sizing: border-box;
+	margin-top: 0.7rem;
+	/* background: yellow; */
+}
+.wode2{
+	margin-top: 1.07rem;
+}
+.wode .top{
+	width: 100%;
+	height: 0.42rem;
+	overflow: hidden;
+}
+.wode .top i{
+	display: block;
+	width: 0.1rem;
+	height: 0.05rem;
+	border-radius: 0.025rem;
+	background: #44b5ff;
+	margin-top: 0.2rem;
+	float: left;
+}
+.wode .top p{
+	height: 0.42rem;
+	font-size: 0.31rem;
+	color: #44b5ff;
+	height: 0.42rem;
+	float: left;
+	margin-left: 0.15rem;
+	font-weight: 800;
+}
+.wode .top span{
+	font-size: 0.31rem;
+	color: #4f5b64;
+}
+.wode .top a{
+	display: block;
+	color: #b5b7b8;
+	height: 0.42rem;
+	line-height: 0.42rem;
+	float: right;
+	margin-right: 0.34rem;
+}	
+.wode .min{
+	width: 100%;
+	height: 1.34rem;
+	margin-top: 0.4rem;
+}
+.wode .min .min1{
+	width: 1.34rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.7rem;
+}
+.wode .min .min1:first-child{
+	margin-left: 0;
+}
+.wode .min .img{
+	width: 1.13rem;
+	height: 1.13rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	background-image: -webkit-linear-gradient(top,#31a3fe,#6ed5fe);
+	background-image: -moz-linear-gradient(top,#31a3fe,#6ed5fe);
+	background-image: -ms-linear-gradient(top,#31a3fe,#6ed5fe);
+	background-image: -o-linear-gradient(top,#31a3fe,#6ed5fe);
+	background-image: linear-gradient(top,#31a3fe,#6ed5fe);
+}
+
+.wode .min .min2 .img{
+	background-image: -webkit-linear-gradient(top,#2fd4ba,#2dde58);
+	background-image: -moz-linear-gradient(top,#2fd4ba,#2dde58);
+	background-image: -ms-linear-gradient(top,#2fd4ba,#2dde58);
+	background-image: -o-linear-gradient(top,#2fd4ba,#2dde58);
+	background-image: linear-gradient(top,#2fd4ba,#2dde58);
+}
+.wode .min .min3 .img{
+	background-image: -webkit-linear-gradient(top,#ffb73a,#ffe433);
+	background-image: -moz-linear-gradient(top,#ffb73a,#ffe433);
+	background-image: -ms-linear-gradient(top,#ffb73a,#ffe433);
+	background-image: -o-linear-gradient(top,#ffb73a,#ffe433);
+	background-image: linear-gradient(top,#ffb73a,#ffe433);
+}
+.wode .min .img img{
+	width: 0.57rem;
+	height: 0.7rem;
+	margin: 0.2rem auto 0;
+}
+.wode .min p{
+	color: #8e9397;
+	margin-top: 0.3rem;
+	text-align: center;
+}
