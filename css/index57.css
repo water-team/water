@@ -193,3 +193,43 @@ main .grbox .gright p a{
 	color: #ff574c;
 	font-weight: bold;
 }
+footer{
+	position: fixed;
+	bottom: 0;
+    width:100%;
+    height: 1rem;
+    /*background: #333;*/
+}
+footer>ul{
+    width:100%;
+    height: 100%;
+}
+footer>ul .list{
+    width:0.5rem;
+    height: 0.86rem;
+    padding-top:0.1rem;
+    /*background: pink;*/
+    float: left;
+    margin:0 0.5rem;
+}
+footer>ul .list a{
+    display: block;
+    width:100%;
+    height: 100%;
+    /*background: #fff;*/
+    text-align:center;
+}
+footer>ul .list a .small_img{
+    width:0.5rem;
+    height: 0.45rem;
+    /*background: #ff6700;*/
+}
+footer>ul .list a .small_img img{
+	width:0.5rem;
+    height: 0.45rem;
+}
+footer>ul .list a h3{
+    font-size:0.22rem;
+    line-height: 0.45rem;
+    color:#59c3fe;
+}
