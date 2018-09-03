@@ -1,0 +1,147 @@
+@import url(base.css);
+.Waterway{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f7fcff;
+}
+.Waterway nav{
+    width: 100%;
+    height:0.89rem;
+    box-sizing: border-box;
+    padding: 0.24rem 0.23rem;
+    /*margin-top: 40px;*/
+    background: #fbfeff;
+    box-shadow: 0 0.10rem 0.05rem 0.10rem #eef8ff;
+}
+.Waterway nav .nav_L{
+    width: 0.32rem;
+    float:left;
+    line-height: 0.41rem;
+    height: 0.41rem;
+    font-size: 0.40rem;
+}
+.Waterway nav .nav_R{
+    width: 4.01rem;
+    height: 100%;
+    float: left;
+    font-weight: normal;
+    text-align: right;
+    font-size: 0.36rem;
+    background: #fbfeff;
+}
+.Waterway .nav1{
+    width: 100%;
+    height: 0.89rem;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0.36rem 0.90rem 0.30rem 0.90rem ;
+    background: #fbfeff;
+}
+.Waterway .nav1 li{
+    width: 1.27rem;
+    height: 100%;
+    font-size:0.22rem ;
+    line-height: 0.23rem;
+    float: left;
+    background: #fbfeff;
+}
+.Waterway main{
+    width:100%;
+    height:7.91rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    box-sizing: border-box;
+    padding: 0.68rem 0.34rem;
+    background: #f7fcff;
+
+}
+.Waterway main .main_1{
+    width:100%;
+    height:1.74rem;
+    background: #f7fcff;
+}
+.Waterway main .main_1 img{
+    display: block;
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+}
+main .main_1R{
+    width: 5.08rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    float: left;
+}
+.main_1R li{
+    width: 100%;
+    padding-left: 0.26rem;
+    box-sizing: border-box;
+    height: 0.41rem;
+}
+.main_1R li .score{
+    width:1.70rem;
+    height:100%;
+    float: left;
+}
+.main_1R li .score span{
+    display:block;
+    font-size: 0.24rem;
+    width: auto;
+    height: auto;
+    margin-left: 0.06rem;
+    margin-top: 0.05rem;
+    float: left;
+}
+.main_1R li .spot{
+    width:0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    margin-top:0.18rem;
+    float: left;
+}
+.main_1R li .evaluate{
+    width: 1.21rem;
+    height: 0.35rem;
+    font-size:0.20rem;
+    margin-top: 0.025rem;
+    text-align: center;
+    padding-top: 0.050rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: #36a8fe;
+    float: left;
+    background: #e7f6ff;
+}
+/*水路综合的下拉部分*/
+.Waterway .comprehensive_D{
+    width:7.50rem;
+    height:2.19rem;
+    padding: 0 0.87rem 0 0.83rem;
+    position: absolute;
+    top:1.78rem;
+    left: 0;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow:0 10rem 0.001rem 10rem rgba(0,0,0,0.6) ;
+    display: none;
+}
+.Waterway .comprehensive_D .D1{
+    width:100%;
+    height: 0.44rem;
+    color: #818283;
+    font-size: 0.23rem;
+    font-weight: 500;
+    padding-top: 0.21rem;
+    border-bottom:0.02rem solid #f1f4f5;
+}
+.Waterway .comprehensive_D .D1:last-child{
+    border-bottom: none;
+}
+

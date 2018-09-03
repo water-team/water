@@ -1,0 +1,224 @@
+@import url('base.css');
+img{
+    display: block;
+    width:100%;
+}
+body{
+    background: #fbfeff;
+}
+/*头部*/
+.header{
+    width:100%;
+    height: 0.45rem;
+}
+/*标题*/
+.title{
+    width:100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    display: flex;
+
+}
+.title i{
+    font-size:0.4rem;
+    margin-left:0.2rem;
+    color:#36a8fe;
+    display: block;
+    margin-bottom:0.2rem;
+}
+.title h2{
+    font-size:0.4rem;
+    font-weight: 500;
+    margin-left:2.8rem;
+    color:#4ebbfe;
+}
+/*搜索栏开始*/
+.search{
+    width:100%;
+    height: 0.66rem;
+    padding:0.03rem 0.2rem;
+    box-sizing:border-box;
+    margin-bottom:0.14rem;
+}
+
+.search .search_box{
+    width:100%;
+    height: 0.66rem;
+    float:left;
+    position: relative;
+}
+.search .search_box i{
+    position: absolute;
+    right:0.15rem;
+    top:0.18rem;
+    color:#a1dfbd;
+    font-size:0.16rem;
+}
+.search .search_box input{
+    position: absolute;
+    left:0;
+    top:0.04rem;
+    height: 0.5rem;
+    border-radius:0.28rem;
+    padding-left:0.15rem;
+    width:6.95rem;
+    border:0.03rem solid #e8f6ff;
+    line-height: 0.46rem;
+    font-size:0.12rem;
+    background: #f2faff;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color:rgba(55,165,255,0.7);
+    font-size:0.16rem;
+}
+/*内容开始*/
+.content{
+    width:100%;
+    box-shadow:0 0.1rem 0.1rem 0.06rem rgba(200,200,200,0.05) inset;
+    padding-top:0.45rem;
+
+}
+.content h2{
+    font-size:0.3rem;
+    margin-left:0.5rem;
+    color:#41b2fc;
+    position: relative;
+    margin-bottom:0.32rem;
+
+}
+.content h2:before{
+    content:"";
+    width:0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius:0.025rem;
+    position: absolute;
+    left:-0.25rem;
+    top:0.18rem;
+}
+.content h2 span{
+    color:#4f5b64;
+}
+.content .details{
+    width:100%;
+    height: 1.74rem;
+    margin-bottom:0.75rem;
+}
+.content .details:nth-child(2){
+    margin-bottom:0.65rem
+}
+.content .details:nth-child(3){
+    margin-bottom:0.65rem
+}
+.content .details:nth-child(4){
+    margin-bottom:0.65rem
+}
+.content .details .service_img{
+    width:1.74rem;
+    height: 1.74rem;
+    float: left;
+    margin-left:0.35rem;
+}
+.content .details .details_text{
+    width:4.84rem;
+    height: 1.74rem;
+    float: left;
+    padding:0 0.33rem 0 0.23rem;
+    position: relative;
+}
+.content .details .details_text .text_title{
+    font-size:0.28rem;
+    line-height: 0.28rem;
+    color:#646666;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:0.23rem;
+}
+.content .details .details_text .text_title span:last-child{
+    color:#fbb548;
+}
+.content .details .details_text .score{
+    font-size:0.2rem;
+    line-height: 0.2rem;
+    color:#afb1b2;
+    margin-bottom:0.19rem;
+}
+.content .details .details_text .score span{
+    position: relative;
+}
+.content .details .details_text .score span b{
+    color:#36a8fe;
+}
+.content .details .details_text .score span:first-child {
+    margin-left: 0.18rem;
+}
+.content .details .details_text .score span:last-child{
+    margin-left:0.68rem;
+}
+.content .details .details_text .score span:before{
+    content:"";
+    display: block;
+    width:0.05rem;
+    height: 0.05rem;
+    background: #36a8fe;
+    border-radius: 50%;
+    position: absolute;
+    top:0.15rem;
+    left:-0.1rem;
+    box-shadow: 0 0 0.1rem 0.02rem rgba(150,150,150,0.2);
+}
+.content .details .details_text .evaluate{
+    width:100%;
+    height: 0.35rem;
+    margin-bottom:0.18rem;
+}
+.content .details .details_text .evaluate .evaluate_box{
+    width:1.2rem;
+    height: 0.35rem;
+    background: #e7f6ff;
+    float: left;
+    font-size:0.18rem;
+    line-height: 0.35rem;
+    text-align: center;
+     color:#36a8fe;
+    border-radius:0.17rem;
+}
+.content .details .details_text .evaluate .evaluate_box:last-child{
+    margin-left:0.1rem;
+}
+.content .details .details_text .sell{
+    font-size:0.18rem;
+    color:#afb1b2;
+    margin-left:0.2rem;
+    position: relative;
+}
+.content .details .details_text .sell b{
+    color:#dadcdd;
+}
+.content .details .details_text .sell span:before{
+    content:"";
+    display: block;
+    width:0.05rem;
+    height: 0.05rem;
+    background: #36a8fe;
+    border-radius: 50%;
+    position: absolute;
+    top:0.15rem;
+    left:-0.1rem;
+    box-shadow: 0 0 0.1rem 0.02rem rgba(150,150,150,0.2);
+}
+.content .details .details_text .yuyue{
+    width:1.24rem;
+    height: 0.45rem;
+    background: #3bacfe;
+    position: absolute;
+    border-radius:0.24rem;
+    font-size:0.18rem;
+    line-height: 0.45rem;
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    right:0.3rem;
+}

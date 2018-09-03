@@ -1,0 +1,307 @@
+@import "base.css";
+.Whole{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.name{
+    width: 7.50rem;
+    height: 0.95rem;
+    margin-top: 0.4rem;
+    background:#fbfeff;
+}
+.name i{
+    display: block;
+    width: 0.7rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    padding-left: 0.2rem;
+    float: left;
+    color: #36a8fe;
+}
+.jinTong{
+    width: 5.5rem;
+    height: 100%;
+    font-size: 0.4rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #36a8fe;
+    line-height: 0.95rem;
+    margin: 0 auto;
+    float: left;
+}
+.ser{
+    width:7.12rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    background: #f2faff;
+    border:1px solid #e8f6ff;
+    margin-bottom: 0.08rem;
+}
+.ser_1{
+    width: 0.79rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    background: #a4e0bd;
+    float: right;
+    margin:0.08rem 0.06rem 0 0;
+    position: relative;
+}
+.icon-search{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.25rem;
+    color: #e5f6ec;
+}
+.nursing{
+    width: 7.5rem;
+    height: 2.35rem;
+}
+.nurs{
+    width: 6.86rem;
+    height: 2.35rem;
+    margin:0 auto;
+}
+.nurs_l img{
+    width: 2.02rem;
+    height: 2.02rem;
+    margin-left: -0.14rem;
+    float: left;
+}
+.nurs_r{
+    width: 4.98rem;
+    height: 2.35rem;
+    float: right;
+}
+.nurs_r h3{
+    margin-top: 0.2rem;
+    font-size: 0.32rem;
+    color: #8a8c8d;
+}
+.s_time{
+    width: 4rem;
+    height: 0.4rem;
+    font-size: 0.28rem;
+}
+.icon-biao{
+    line-height: 0.4rem;
+    color: #a4e0bd;
+    float: left;
+}
+/*导航栏开始*/
+nav{
+    width: 7.50rem;
+    height: 0.95rem;
+    background: #fbfeff;
+}
+.nav{
+    width: 6.2rem;
+    height: 0.95rem;
+    margin: 0 auto;
+    display: flex;
+}
+.nav_list{
+    width: 1.6rem;
+    height: 0.52rem;
+    margin: 0.25rem auto 0;
+    border-radius: 0.26rem;
+    background: #e7f6ff;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #3bacfe;
+    cursor: pointer;
+}
+.ch{
+    box-shadow: 0 2px 6px 1px #3bacfe;
+    background:#3bacfe;
+    color: #e7f6ff;
+}
+/* 广告 */
+.adv{
+    display: block;
+    margin: 0.1rem   auto 0;
+}
+/* 内容 */
+.all{
+    width: 7.50rem;
+    height: 0.92rem;
+    margin-top: 0.3rem;
+    background:#fbfeff;
+    overflow: hidden;
+}
+.block{
+    width: 0.1rem;
+    height: 0.05rem;
+    color: #000;
+    border-radius: 2px;
+    margin-left: 0.25rem;
+    margin-top: 0.43rem;
+    float: left;
+}
+.allService{
+    width: 3rem;
+    height: 0.92rem;
+    font-size: 0.35rem; 
+    font-weight: 600;
+    margin-left: 0.45rem;
+    line-height: 0.92rem;
+    color: #4f5b64;
+    float: left;
+}
+.more{
+    width: 1.6rem;
+    height: 0.92rem;
+    float: right;
+}
+.more p{
+    width: 1rem;
+    height: 0.92rem;
+    line-height: 0.92rem;
+    font-size: 0.26px;
+    color: #3bacfe;
+    float: left;
+}
+.icon-youjiantou{
+    line-height: 0.92rem;
+    margin-right: 0.24rem;
+    float: right;
+    color: #000;
+}
+
+/* 店铺列表 */
+.need{
+    width:100%;
+    height:9.44rem;
+    box-sizing: border-box;
+    padding:0 0.24rem 0 0.23rem ;
+    /* margin-top: 0.24rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.need li{
+    width: 3.51rem;
+    height:4.70rem;
+    background: #fbfeff;
+    position: relative;
+}
+.need li img{
+    display: block;
+    width: 1.53rem;
+    margin-top:0.50rem;
+    margin-left:0.71rem;
+    height: 1.62rem;
+}
+.need li .five{
+    width: 0.54rem;
+    text-align: center;
+    height: 0.30rem;
+    color: #ffffff;
+    top: 0.72rem;
+    right: 0.26rem;
+    position: absolute;
+    border-radius: 0.30rem;
+    background: #32d794;
+    font-size: 0.22rem;
+}
+.need .need_1 .spot{
+    width:0.10rem;
+    height: 0.05rem;
+    float: left;
+    margin-top: 0.12rem;
+    border-radius: 0.05rem;
+    background: #34da87;
+}
+.need li .title{
+    width: 100%;
+    height:0.75rem;
+    margin-top: 0.40rem;
+    background: #fbfeff;
+    border-bottom: 1px solid #e1e5e6;
+}
+.need li .title .title1{
+    width:100%;
+    height:0.375rem;
+    background: #fbfeff;
+}
+.need li .title_bottom{
+    width: 100%;
+    height: 0.95rem;
+}
+.need li .title_bottom1 {
+    width: 100%;
+    height:0.48rem;
+    background: #fbfeff;
+}
+.need li .title_bottom1 .title_bottom1_1{
+    font-size: 0.23rem;
+    width:1.59rem;
+    height: 100%;
+    float: left;
+    line-height: 0.475rem;
+}
+.need li .title_bottom1 .spot1{
+    width: 0.05rem;
+    height: 0.05rem;
+    float: left;
+    margin-top:0.21rem;
+    background: #44b5ff;
+}
+.title_bottom .title_bottom1 .btn_3{
+    width: 1.24rem;
+    height: 0.35rem;
+    float: left;
+    line-height: 0.35rem;
+    text-align: center;
+    font-size: 0.22rem;
+    border-radius: 0.35rem;
+    margin-top: 0.10rem;
+    background:#e7f6ff;
+    color: #36a8fe;
+}
+/* 底部开始 */
+footer{
+    width:100%;
+    height: 1.2rem;
+    background: #f6fbff;
+}
+footer>ul{
+    width:100%;
+    height: 100%;
+}
+footer img{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+footer>ul .list{
+    width:0.5rem;
+    height: 0.86rem;
+    padding-top:0.1rem;
+    float: left;
+    margin:0 0.5rem;
+}
+footer>ul .list a{
+    display: block;
+    width:100%;
+    height: 100%;
+    text-align:center;
+}
+.small_img{
+    width:0.6rem;
+    height: 0.6rem;
+    margin-top: -0.36rem;
+}
+footer>ul .list a h3{
+    width: 0.57rem;
+    font-size:0.22rem;
+    line-height: 0.45rem;
+    margin-top: 0.46rem;
+    color:#59c3fe;
+}
+
+
+

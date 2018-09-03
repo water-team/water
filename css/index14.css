@@ -1,0 +1,300 @@
+@import url(base.css);
+.Waterway{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f7fcff;
+}
+.Waterway nav{
+    width: 100%;
+    height:0.89rem;
+    box-sizing: border-box;
+    padding: 0.24rem 0.23rem;
+    /*margin-top: 40px;*/
+    background: #fbfeff;
+}
+.Waterway nav .nav_L{
+    width: 0.32rem;
+    float:left;
+    line-height: 0.41rem;
+    height: 0.41rem;
+    font-size: 0.40rem;
+}
+.Waterway nav .nav_R{
+    width: 4.01rem;
+    height: 100%;
+    float: left;
+    font-weight: normal;
+    text-align: right;
+    font-size: 0.36rem;
+    background: #fbfeff;
+}
+.Waterway .address{
+    width: 100%;
+    height: 1.63rem;
+    margin-top: 0.30rem;
+    padding: 0.45rem 0.60rem  0.70rem 0.54rem ;
+    background: #f1faff;
+    box-sizing: border-box;
+}
+.Waterway .address .address_1L{
+    width: 100%;
+    height: 0.36rem;
+    font-size:0.24rem ;
+    font-weight: 600;
+    color: #3bacfe;
+}
+.Waterway .address .address_2L{
+    width: 100%;
+    height: 0.30rem;
+    padding-left:1.16rem ;
+    font-size: 0.22rem;
+    font-weight: normal;
+    color: #787d7f;
+    box-sizing: border-box;
+}
+.Waterway .BuyShop{
+    width: 100%;
+    height:1.74rem;
+    margin-top: 0.30rem ;
+    padding: 0 0.25rem 0 0.25rem ;
+    box-sizing: border-box;
+}
+.Waterway .BuyShop .introduce{
+    width:5.26rem;
+    height:100%;
+    float: left;
+}
+.Waterway .BuyShop .introduce li{
+    width:100%;
+    height:0.87rem;
+    padding-left:0.24rem ;
+    box-sizing: border-box;
+}
+.Waterway .message{
+    width: 100%;
+    height: 7.02rem;
+    box-sizing: border-box;
+    padding:0.86rem 0.23rem 1.49rem 0.24rem;
+}
+.Waterway .message .one{
+    width: 100%;
+    height: 0.28rem;
+    font-size: 0.22rem;
+    font-weight: 600;
+    color: #41b2fc;
+}
+.Waterway .message .one .spot{
+    width:0.10rem ;
+    height: 0.05rem;
+    margin-top: 0.13rem;
+    border-radius: 0.05rem;
+    float: left;
+    background: #44b5ff;
+}
+.Waterway .message .one1{
+    width: 100%;
+    height: 0.28rem;
+    font-size: 0.22rem;
+    font-weight: 600;
+    color: #41b2fc;
+}
+.Waterway .message .one1 .spot{
+    width:0.10rem ;
+    height: 0.05rem;
+    margin-top: 0.13rem;
+    border-radius: 0.05rem;
+    float: left;
+    background: #44b5ff;
+}
+.Waterway .message .message_C{
+    width: 100%;
+    height:2.94rem;
+    padding-top: 0.34rem;
+    box-sizing: border-box;
+    margin:0.27rem 0 0.94rem 0;
+    background: #f1faff;
+    position: relative;
+}
+.Waterway .message .message_C span{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 0.34rem;
+    color: #b9c9d2;
+}
+.Waterway .message .message_C img{
+    display: block;
+    width: 1.01rem;
+    height: 1.01rem;
+    position: absolute;
+    bottom:0.46rem;
+    left: 0.35rem;
+    box-shadow: 0.03rem 0.04rem 0.05rem 0.01rem #9aecbf;
+}
+.Waterway .message .one .time_L{
+    width:1.50rem;
+    height:100%;
+    float: left;
+}
+.Waterway .message .one .time_R{
+    width:3.93rem ;
+    height: 100%;
+    margin-left:1.60rem ;
+    float: left;
+}
+.Waterway .message .one1 .time_L{
+    width:1.50rem;
+    height:100%;
+    float: left;
+}
+.Waterway .message .one1 .time_R{
+    width:3.93rem ;
+    height: 100%;
+    margin-left:1.60rem ;
+    float: left;
+}
+.one1 .time_R .time_R_Arrow{
+    float: right;
+    width:0.16rem;
+    height: 100%;
+}
+.Waterway .footer{
+    width: 100%;
+    height: 1.08rem;
+    box-sizing: border-box;
+    padding: 0.26rem 0.25rem 0.22rem 0.23rem;
+}
+.Waterway .footer .money{
+    float: left;
+    width:3.48rem ;
+    height: 100%;
+}
+.Waterway .footer .money .spot{
+    width:0.05rem;
+    height: 0.05rem;
+    float: left;
+    border-radius: 50%;
+    background: #44b5ff;
+    margin-top:0.27rem;
+}
+.Waterway .footer .btn{
+    width: 3.50rem;
+    height: 100%;
+    border-radius: 0.40rem;
+    line-height: 0.60rem;
+    text-align: center;
+    font-size:0.26rem ;
+    color: #FFFFFF;
+    float: right;
+    background: #3bacfe;
+}
+.Waterway .index_15{
+    width: 100%;
+    height:8.34rem;
+    position: absolute;
+    left: 0;
+    z-index:15;
+    display: none;
+    box-shadow:0 0.001rem 10.0rem 10rem rgba(0,0,0,0.5) ;
+    bottom: 0;
+}
+.Waterway .index_15 nav{
+    width:100%;
+    height: 0.87rem;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 0.30rem;
+    font-size: 0.20rem;
+    text-align: center;
+    background: #ffffff;
+}
+.Waterway .index_15 nav .close{
+    font-size:0.25rem;
+    width:0.30rem;
+    height: 0.30rem;
+    top: 0.30rem;
+    right: 0.24rem;
+    color: #d1dde6;
+    position: absolute;
+}
+.Waterway .index_15 .time_top{
+    width: 100%;
+    padding: 0 0.28rem 0;
+    box-sizing: border-box;
+    height: 1.08rem;
+    display: flex;
+    justify-content: space-between;
+    background: #ecf7ff;
+}
+.Waterway .index_15 .time_top li{
+    width:1.98rem ;
+    height:1.08rem;
+    padding:0.26rem 0 0.13rem 0;
+    box-sizing: border-box;
+    border-bottom:0.09rem solid  #ecf7ff;
+}
+.Waterway .index_15 .time_top li .time_top1{
+    width: 100%;
+    height:0.32rem ;
+    font-size: 0.24rem;
+    text-align: center;
+    font-weight: 600;
+    color: #41b2fc;
+    background: #ecf7ff;
+}
+.Waterway .index_15 .time_top li .time_top2{
+    width: 100%;
+    height:0.27rem ;
+    font-size: 0.22rem;
+    text-align: center;
+    font-weight: 600;
+    color: #7fc8fe;
+    background: #ecf7ff;
+}
+.Waterway .index_15 .time_bottom{
+    width:100%;
+    height:4.91rem;
+    box-sizing: border-box;
+    background: #ffffff;
+    display: flex;
+    font-size: 0.24rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding:0.34rem 0.26rem 0.20rem ;
+}
+.Waterway .index_15 .time_bottom li{
+    width: 1.60rem;
+    height: 0.81rem;
+    font-weight: 600;
+    line-height: 0.81rem;
+    color: #3bacfe;
+    text-align: center;
+}
+.Waterway .index_15 .time_bottom .time_background{
+    background: #3bacfe;
+    border-radius: 0.10rem;
+    color: #FFFFFF;
+}
+.Waterway .index_15 .footer15{
+    width: 100%;
+    height: 1.48rem;
+    padding-top: 0.30rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+.Waterway .index_15 .footer15 .footer15_btn{
+    width: 4.54rem;
+    height: 0.62rem;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    line-height: 0.62rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0.10rem;
+    background: #36de77;
+    box-shadow: 0 0.02rem 0.10rem 0.05rem #a2f0bf;
+}

@@ -1,0 +1,208 @@
+@import "base.css";
+.Whole{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.name{
+    width: 7.50rem;
+    height: 0.95rem;
+    margin-top: 0.4rem;
+    background:#fbfeff;
+}
+.name i{
+    display: block;
+    width: 0.7rem;
+    height: 0.95rem;
+    line-height: 0.95rem;
+    padding-left: 0.2rem;
+    float: left;
+    color: #36a8fe;
+}
+.jinTong{
+    width: 5.5rem;
+    height: 100%;
+    font-size: 0.40rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #36a8fe;
+    line-height: 0.95rem;
+    margin: 0 auto;
+    float: left;
+}
+.shadow{
+    width: 7.5rem;
+    height: 0.24rem;
+    background-image: -webkit-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -moz-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -ms-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: -o-linear-gradient(top,#ecf8ff,#f7fcff);
+    background-image: linear-gradient(top,#ecf8ff,#f7fcff);
+}
+/*详情开始*/
+.photo{
+    width: 7.5rem;
+    height: 6.6rem;
+    /*background: ;*/
+    overflow: hidden;
+}
+.photo img{
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin: 1.3rem auto;
+}
+.info{
+    width: 7.02rem;
+    height: 3.39rem;
+    margin: 0 auto;
+    padding: 0.3rem 0;
+}
+.info h3{
+    font-size: 0.32rem;
+    color: #8a8c8d;
+    padding: 0.1rem 0;
+}
+.info p{
+    width: 7.02rem;
+    height: 0.8rem;
+    letter-spacing: 0.03rem;
+    font-size: 0.14rem;
+    color: #c7caca;
+}
+.price_R{
+    width: 2rem;
+    height: 0.52rem;
+    font-size: 0.3rem;
+    color: #fbb548;
+    line-height: 0.52rem;
+    float: left;
+}
+.price_R1{
+    width: 2rem;
+    height: 0.52rem;
+    font-size: 0.2rem;
+    color: #c8c9ca;
+    margin-left: 0.1rem;
+    line-height: 0.56rem;
+    float: left;
+    text-decoration:line-through;
+ }
+.price_L{
+    width: 1.3rem;
+    height: 0.52rem;
+    overflow: hidden;
+    float: right;
+}
+.dis{
+    width: 7.02rem;
+    height: 0.87rem;
+    margin-top: 0.5rem;
+    position: relative;
+    border-top: 1px solid #f0f5f7;
+    border-bottom: 1px solid #f0f5f7;
+}
+.dis img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+}
+.dis h3{
+    font-size: 0.3rem;
+    margin: 0.15rem 0 0 0.6rem;
+    color: #ff844e;
+    float: left;
+}
+.full{
+    width: 1.84rem;
+    height: 0.40rem;
+    border-radius: 0.2rem;
+    font-size: 0.26rem;
+    background-image: -webkit-linear-gradient(left,#ff933b,#ffca3b);
+    background-image: -moz-linear-gradient(left,#ff933b,#ffca3b);
+    background-image: -ms-linear-gradient(left,#ff933b,#ffca3b);
+    background-image: -o-linear-gradient(left,#ff933b,#ffca3b);
+    background-image: linear-gradient(left,#ff933b,#ffca3b);
+    float: left;
+    margin: 0.26rem 0 0 0.1rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #fbfeff;
+}
+.service{
+    width: 2rem;
+    height: 0.52rem;
+    overflow: hidden;
+    float: left;
+}
+/*底部开始*/
+footer{
+    width:100%;
+    height: 1.15rem;
+    background: #f1faff;
+    overflow: hidden;
+    display: flex;
+}
+.content{
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    margin-top: 0.1rem;
+}
+.shop{
+    width: 1.2rem;
+    height: 1.15rem;
+}
+.shop img{
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    /*margin-top: -rem;*/
+}
+.content h4{
+    width: 1.2rem;
+    height: 0.4rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.28rem;
+}
+.shop_car{
+    width: 5rem;
+    height: 100%;
+}
+.add{
+    width: 1.96rem;
+    height: 0.60rem;
+    text-align: center;
+    line-height: 0.60rem;
+    color: #e7f6ff;
+    border-radius: 0.30rem;
+    font-size: 0.28rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#2bce91);
+    background-image: -moz-linear-gradient(left,#37e06f,#2bce91);
+    background-image: -ms-linear-gradient(left,#37e06f,#2bce91);
+    background-image: -o-linear-gradient(left,#37e06f,#2bce91);
+    background-image: linear-gradient(left,#37e06f,#2bce91);
+    margin: 0.3rem 0 0 0.4rem;
+    box-shadow: 0 2px 6px 0.2px #2bce91;
+    float: left;
+}
+.order{
+    width: 1.96rem;
+    height: 0.60rem;
+    text-align: center;
+    line-height: 0.60rem;
+    color: #e7f6ff;
+    border-radius: 0.30rem;
+    font-size: 0.28rem;
+    background:#3bacfe;
+    margin: 0.3rem 0.3rem 0 0 ;
+    box-shadow: 0 2px 6px 1px #3bacfe;
+    float: right;
+}
